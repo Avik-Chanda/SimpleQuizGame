@@ -1,0 +1,36 @@
+div.heading
+{
+    
+    background-color: red;
+    color : white;
+    text-align : center;
+    margin : auto;
+    margin-top : 10px;
+    width: 750px;
+    border-radius : 10px;
+    border : 1px solid black;
+}
+
+div.question-box , div.result
+{
+    margin : auto;
+    margin-top : 20px;
+    width : 50%;
+    border : 1px solid black ;
+    padding : 40px;
+   border-radius : 10px;
+    background-color: darkseagreen;
+}
+
+
+#winner ,#looser 
+{
+    width : 200px;
+    height :  200px;
+    visibility: hidden;
+}
+
+#result
+{
+    visibility: hidden;
+}
